@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    background-size: 80%;
+    background-color: antiquewhite;
+}
+
+.w3-container {
+    text-align: center;
+    margin-top: 2%;
+    height: 400px;
+}
+
+.title {
+    font-family:courier,arial,helvetica;
+    font-size: 2rem;
+    animation-duration: 5ms;
+    animation-name: sohan;
+    font-weight: bold
+}
+
+.random {
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline
+}
+
+@keyframes sohan {
+    0% {
+        opacity: 0;
+        transform: translate(-100px)
+    }
+
+    80% {
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0)
+    }
+}
